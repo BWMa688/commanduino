@@ -38,6 +38,6 @@ class CommandADS1115(CommandDevice):
 
     def handle_adc_command(self, *arg):
         if arg[0]:
-            self.adc = float(arg[0])
+            self.adc = int(arg[0])
             self.adc_lock.ensure_released()
 
