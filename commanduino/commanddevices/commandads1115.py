@@ -21,13 +21,10 @@ CMD_ANSWER_ADC = 'A'
 # Outgoing (Read)
 CMD_REQUEST_ADC = 'RA'
 
-
 class CommandADS1115(CommandDevice):
-
     def __init__(self):
         CommandDevice.__init__(self)
         self.register_all_requests()
-
 
     def register_all_requests(self):
         self.register_request(
