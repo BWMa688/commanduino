@@ -8,7 +8,7 @@ setup(name="commanduino",
       author="Jonathan Grizou",
       author_email='jonathan.grizou@gmail.com',
       platforms=["any"],
-      url="https://github.com/croningp/commanduino",
+      url="https://github.com/BWMa688/commanduino",
       packages=find_packages(),
       package_data={
             "commanduino": ["commanddevices/*.pyi", "py.typed"]
