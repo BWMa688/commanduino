@@ -64,3 +64,7 @@ add_to_bonjour_register('TCS34725', CommandTCS34725)
 # Pressure sensors BME280
 from .commandbme280 import CommandBME280
 add_to_bonjour_register('BME280', CommandBME280)
+
+#ADS1115 16bits ADC
+from .commandads1115 import CommandADS1115
+add_to_bonjour_register('ADS1115', CommandADS1115)
