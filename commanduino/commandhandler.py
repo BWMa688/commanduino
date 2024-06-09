@@ -26,7 +26,7 @@ DEFAULT_TERM = ';'
 DEFAULT_CMD_DECIMAL = 2
 
 # Default baudrate for communication
-DEFAULT_BAUDRATE = 115200
+DEFAULT_BAUDRATE = 9600
 
 # Default timeout time
 DEFAULT_TIMEOUT = 0.01
